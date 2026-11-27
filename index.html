@@ -189,7 +189,7 @@ footer{padding-block:24px;border-top:1px solid var(--line);font-size:13px;color:
 .view[hidden]{display:none!important}
 .sp{--sp-bg:#121826;--sp-bg2:#1a2236;--sp-card:rgba(255,255,255,.045);--sp-line:rgba(255,255,255,.10);--sp-text:#c9d2e3;--sp-head:#f2f5fb;--sp-mute:#8d99b0;--acc:#8ab4ff;--acc2:#b9a2ff;--acc-ink:#0f1730;
   min-height:100vh;color:var(--sp-text);background:radial-gradient(circle at 12% 8%, color-mix(in srgb, var(--acc) 16%, transparent), transparent 34%),radial-gradient(circle at 88% 30%, color-mix(in srgb, var(--acc2) 12%, transparent), transparent 30%),linear-gradient(180deg,var(--sp-bg),var(--sp-bg2) 60%,var(--sp-bg));}
-.sp.t-ops{--sp-bg:#0d1514;--sp-bg2:#13201e;--acc:#f5b24a;--acc2:#3fd0c9;--acc-ink:#1d1405}
+.sp.t-ops{--sp-bg:#0b1430;--sp-bg2:#132049;--acc:#ff9a52;--acc2:#8fb0ff;--acc-ink:#1d0f05}
 .sp h1,.sp h2,.sp h3,.sp h4{color:var(--sp-head)}
 .sp a{color:var(--acc)}
 .sp-top{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb, var(--sp-bg) 82%, transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--sp-line)}
@@ -322,8 +322,6 @@ footer{padding-block:24px;border-top:1px solid var(--line);font-size:13px;color:
 .phase .n{font:500 11px/1 var(--mono);letter-spacing:.14em;color:var(--acc);text-transform:uppercase}
 /* home project-card links */
 a.btn{white-space:nowrap}
-.sp.t-st{--sp-bg:#14112a;--sp-bg2:#1d1838;--acc:#b79bff;--acc2:#5ee0b5;--acc-ink:#160f33}
-.sp.t-aero{--sp-bg:#0c1a17;--sp-bg2:#122622;--acc:#ffb38a;--acc2:#7fd1c7;--acc-ink:#2a1306}
 .btn.c-violet{background:#6d4fd8;border-color:#6d4fd8;color:#fff}
 .btn.c-green{background:#0f7a68;border-color:#0f7a68;color:#fff}
 .btn.c-violet:hover,.btn.c-green:hover{filter:brightness(1.08);color:#fff}
@@ -335,9 +333,10 @@ a.btn{white-space:nowrap}
 .arch-legend i{display:inline-block;width:14px;height:10px;border:1.5px solid;border-radius:3px;margin-right:6px;vertical-align:-1px}
 .arch-n{margin:8px 20px 16px;font-size:13.5px;color:var(--sp-text)}
 @media (max-width:900px){.arch-c::after{content:"Scroll sideways to see the full diagram →";display:block;padding:8px 14px;font:500 12px var(--body);color:#6b7385;background:#f6f7fa}}
-.sp.t-lm{--sp-bg:#14112a;--sp-bg2:#1d1838;--acc:#b79bff;--acc2:#5ee0b5;--acc-ink:#160f33}
-.sp.t-kd{--sp-bg:#1a1230;--sp-bg2:#241a40;--acc:#ff9ec0;--acc2:#ffd27a;--acc-ink:#2a0f1d}
+.sp.t-lm{--sp-bg:#071f16;--sp-bg2:#0c2c20;--acc:#ffcf6b;--acc2:#5ef0b0;--acc-ink:#062a1d}
+.sp.t-kd{--sp-bg:#161b36;--sp-bg2:#20264a;--acc:#ffb48a;--acc2:#ffe9b8;--acc-ink:#2a1406}
 .c-pink{background:#d8668a;border-color:#d8668a;color:#fff}
+.c-lmg{background:#0f7a4d;border-color:#0f7a4d;color:#fff}.c-roo{background:#e2631c;border-color:#e2631c;color:#fff}.c-kdn{background:#2a2f5c;border-color:#2a2f5c;color:#fff}
 </style>
 </head>
 <body>
@@ -392,54 +391,96 @@ a.btn{white-space:nowrap}
 
       <div class="cards">
                 <article class="pcard">
-          <svg class="cover" viewBox="0 0 400 300" role="img" aria-label="Warehouse shelves with one bin highlighted">
-            <defs><linearGradient id="g4lm" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1c1733"/><stop offset="1" stop-color="#6d4fd8"/></linearGradient></defs>
-            <rect width="400" height="300" fill="url(#g4lm)"/>
-            <g fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".3">
-              <rect x="34" y="50" width="70" height="46" rx="6"/><rect x="112" y="50" width="70" height="46" rx="6"/><rect x="190" y="50" width="70" height="46" rx="6"/>
-              <rect x="34" y="104" width="70" height="46" rx="6"/><rect x="190" y="104" width="70" height="46" rx="6"/>
-              <rect x="34" y="158" width="70" height="46" rx="6"/><rect x="112" y="158" width="70" height="46" rx="6"/><rect x="190" y="158" width="70" height="46" rx="6"/>
-            </g>
-            <rect x="112" y="104" width="70" height="46" rx="6" fill="#5ee0b5" fill-opacity=".9"/>
-            <text x="147" y="132" font-family="Poppins, sans-serif" font-size="12" font-weight="700" fill="#1c1733" text-anchor="middle">MYS→BLR</text>
-            <rect x="284" y="74" width="92" height="150" rx="16" fill="#ffffff"/>
-            <rect x="296" y="92" width="60" height="22" rx="11" fill="#e9fbf4"/><rect x="296" y="124" width="68" height="6" rx="3" fill="#1c1733"/><rect x="296" y="138" width="56" height="5" rx="2.5" fill="#c3cbe0"/>
-            <circle cx="306" cy="200" r="9" fill="#5ee0b5"/><circle cx="330" cy="200" r="9" fill="#ff8a80"/><circle cx="354" cy="200" r="9" fill="#f5b24a"/>
-            <path d="M184 127 H280" stroke="#5ee0b5" stroke-width="3" stroke-dasharray="4 6"/>
-          </svg>
+          <svg class="cover" viewBox="0 0 400 300" role="img" aria-label="LoadMatch: a truck travelling from Mysuru to Bengaluru, and the owner's phone showing the one load with a gap">
+<defs>
+<linearGradient id="lmBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#062a1d"/><stop offset=".6" stop-color="#0d5638"/><stop offset="1" stop-color="#17875a"/></linearGradient>
+<radialGradient id="lmGlow" cx=".82" cy=".1" r=".6"><stop offset="0" stop-color="#ffcf6b" stop-opacity=".55"/><stop offset="1" stop-color="#ffcf6b" stop-opacity="0"/></radialGradient>
+<radialGradient id="lmGlow2" cx=".1" cy=".95" r=".5"><stop offset="0" stop-color="#5ef0b0" stop-opacity=".35"/><stop offset="1" stop-color="#5ef0b0" stop-opacity="0"/></radialGradient>
+<linearGradient id="lmIcon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3fd08f"/><stop offset="1" stop-color="#0f7a4d"/></linearGradient>
+<linearGradient id="lmShine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="lmSh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#021a11" flood-opacity=".55"/></filter>
+</defs>
+<rect width="400" height="300" fill="url(#lmBg)"/><rect width="400" height="300" fill="url(#lmGlow)"/><rect width="400" height="300" fill="url(#lmGlow2)"/>
+<g fill="#fff" fill-opacity=".07"><circle cx="40" cy="40" r="1.6"/><circle cx="70" cy="40" r="1.6"/><circle cx="100" cy="40" r="1.6"/><circle cx="40" cy="70" r="1.6"/><circle cx="70" cy="70" r="1.6"/><circle cx="100" cy="70" r="1.6"/><circle cx="40" cy="100" r="1.6"/><circle cx="70" cy="100" r="1.6"/><circle cx="100" cy="100" r="1.6"/></g>
+<path d="M44 236 C96 170 150 250 214 186" fill="none" stroke="#ffcf6b" stroke-width="3" stroke-dasharray="2 9" stroke-linecap="round"/>
+<g filter="url(#lmSh)"><path d="M44 214 c-11 0 -20 9 -20 20 c0 15 20 34 20 34 s20 -19 20 -34 c0 -11 -9 -20 -20 -20z" fill="#ffcf6b"/><circle cx="44" cy="234" r="7" fill="#0d5638"/></g>
+<text x="44" y="290" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="10" font-weight="600" fill="#d6f5e6">Mysuru</text>
+<g filter="url(#lmSh)"><path d="M214 162 c-11 0 -20 9 -20 20 c0 15 20 34 20 34 s20 -19 20 -34 c0 -11 -9 -20 -20 -20z" fill="#5ef0b0"/><circle cx="214" cy="182" r="7" fill="#0d5638"/></g>
+<text x="214" y="236" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="10" font-weight="600" fill="#d6f5e6">Bengaluru</text>
+<g transform="translate(92 176) rotate(-14)" filter="url(#lmSh)">
+<rect x="0" y="0" width="46" height="30" rx="4" fill="#ffffff"/><rect x="5" y="6" width="36" height="4" rx="2" fill="#bfe9d4"/><rect x="5" y="14" width="26" height="4" rx="2" fill="#bfe9d4"/>
+<path d="M46 8 h14 l9 11 v11 h-23z" fill="#ffcf6b"/><rect x="51" y="11" width="8" height="7" rx="1.5" fill="#0d5638"/>
+<circle cx="13" cy="32" r="6" fill="#062a1d" stroke="#fff" stroke-width="2"/><circle cx="57" cy="32" r="6" fill="#062a1d" stroke="#fff" stroke-width="2"/>
+</g>
+<g transform="translate(30 30)" filter="url(#lmSh)"><rect width="62" height="62" rx="17" fill="url(#lmIcon)"/><rect x="3" y="3" width="56" height="27" rx="14" fill="url(#lmShine)"/>
+<text x="31" y="41" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="22" font-weight="800" fill="#fff">LM</text></g>
+<g transform="translate(262 34)" filter="url(#lmSh)">
+<rect width="112" height="226" rx="20" fill="#0a1f17"/><rect x="5" y="5" width="102" height="216" rx="16" fill="#f7f3ea"/><rect x="40" y="10" width="32" height="5" rx="2.5" fill="#0a1f17"/>
+<text x="14" y="34" font-family="Poppins, Inter, sans-serif" font-size="8" font-weight="700" fill="#0d5638">Owner · Today</text>
+<rect x="11" y="42" width="90" height="74" rx="9" fill="#fff" stroke="#ffcf6b" stroke-width="1.6"/>
+<text x="18" y="57" font-family="Poppins, Inter, sans-serif" font-size="7.5" font-weight="700" fill="#1c2a23">Load 1023</text>
+<rect x="18" y="62" width="44" height="12" rx="6" fill="#fde8e3"/><text x="40" y="70.5" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="6.5" font-weight="700" fill="#c0392b">2 missing</text>
+<text x="18" y="88" font-family="Poppins, Inter, sans-serif" font-size="11" font-weight="800" fill="#c0392b">₹42,000</text>
+<rect x="18" y="96" width="76" height="13" rx="6.5" fill="#0d5638"/><text x="56" y="105" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="6.5" font-weight="700" fill="#fff">Ask Mysuru unit</text>
+<rect x="11" y="124" width="90" height="34" rx="9" fill="#fff"/><circle cx="23" cy="141" r="6" fill="#3fd08f"/><path d="M20 141 l2 2 l4 -4" stroke="#fff" stroke-width="1.6" fill="none"/>
+<rect x="34" y="134" width="50" height="5" rx="2.5" fill="#1c2a23"/><rect x="34" y="144" width="38" height="4" rx="2" fill="#c9d3cd"/>
+<rect x="11" y="164" width="90" height="34" rx="9" fill="#fff"/><circle cx="23" cy="181" r="6" fill="#3fd08f"/><path d="M20 181 l2 2 l4 -4" stroke="#fff" stroke-width="1.6" fill="none"/>
+<rect x="34" y="174" width="44" height="5" rx="2.5" fill="#1c2a23"/><rect x="34" y="184" width="34" height="4" rx="2" fill="#c9d3cd"/>
+</g>
+<g transform="translate(180 92)" filter="url(#lmSh)"><rect width="88" height="26" rx="13" fill="#ffcf6b"/><text x="44" y="17" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="9" font-weight="700" fill="#062a1d">Only the gap</text></g>
+</svg>
           <div class="pbody">
-            <div class="pname"><i style="background:#6d4fd8">L</i>LoadMatch</div>
+            <div class="pname"><i style="background:#0f7a4d">L</i>LoadMatch</div>
             <div class="ptag">B2B · Manufacturing operations · Two-company loop</div>
             <p>Every load, counted at both ends: store staff send and receive with photos, taps and voice, and the owner sees only the gap, as one card with one suggested step.</p>
             <div class="pbtns">
               <a class="btn" href="#/loadmatch">Quick overview</a>
-              <a class="btn c-violet" href="#/loadmatch/case-study">Detailed case study</a>
+              <a class="btn c-lmg" href="#/loadmatch/case-study">Detailed case study</a>
+              <a class="btn" href="https://loadmatch-yozp.onrender.com/" target="_blank" rel="noopener">Live app ↗</a>
             </div>
           </div>
         </article>
 
         <article class="pcard">
-          <svg class="cover" viewBox="0 0 400 300" role="img" aria-label="A maintenance manual feeding answers to a technician">
-            <defs>
-              <linearGradient id="g2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#11262b"/><stop offset="1" stop-color="#0f8b8d"/></linearGradient>
-            </defs>
-            <rect width="400" height="300" fill="url(#g2)"/>
-            <g transform="translate(92 150)">
-              <circle r="56" fill="none" stroke="#f5b24a" stroke-width="14" stroke-dasharray="18 10"/>
-              <circle r="30" fill="#11262b" stroke="#f5b24a" stroke-width="6"/>
-              <circle r="9" fill="#f5b24a"/>
-            </g>
-            <rect x="190" y="70" width="88" height="112" rx="8" fill="#ffffff" fill-opacity=".92"/>
-            <rect x="202" y="86" width="52" height="7" rx="3.5" fill="#11262b"/>
-            <rect x="202" y="102" width="64" height="5" rx="2.5" fill="#9bb3b6"/><rect x="202" y="113" width="58" height="5" rx="2.5" fill="#9bb3b6"/><rect x="202" y="124" width="64" height="5" rx="2.5" fill="#9bb3b6"/>
-            <rect x="202" y="140" width="40" height="18" rx="4" fill="#f5b24a" fill-opacity=".85"/>
-            <path d="M282 126 H306" stroke="#ffffff" stroke-opacity=".7" stroke-width="3" stroke-dasharray="4 5"/>
-            <rect x="306" y="96" width="70" height="104" rx="12" fill="#ffffff"/>
-            <rect x="316" y="108" width="50" height="22" rx="8" fill="#e6f4f4"/><rect x="316" y="138" width="46" height="5" rx="2.5" fill="#2e3a50"/><rect x="316" y="149" width="40" height="5" rx="2.5" fill="#c3cbe0"/><rect x="316" y="160" width="44" height="5" rx="2.5" fill="#c3cbe0"/>
-            <rect x="316" y="176" width="30" height="12" rx="6" fill="#0f8b8d"/>
-          </svg>
+          <svg class="cover" viewBox="0 0 400 300" role="img" aria-label="ResolveOps: a machine raises an alert and the technician's phone shows a fix with its SOP source">
+<defs>
+<linearGradient id="roBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0b1430"/><stop offset=".65" stop-color="#16244f"/><stop offset="1" stop-color="#263c7a"/></linearGradient>
+<radialGradient id="roGlow" cx=".25" cy=".55" r=".55"><stop offset="0" stop-color="#ff8a3d" stop-opacity=".55"/><stop offset="1" stop-color="#ff8a3d" stop-opacity="0"/></radialGradient>
+<radialGradient id="roGlow2" cx=".95" cy=".05" r=".5"><stop offset="0" stop-color="#6ea8ff" stop-opacity=".35"/><stop offset="1" stop-color="#6ea8ff" stop-opacity="0"/></radialGradient>
+<linearGradient id="roIcon" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffa45c"/><stop offset="1" stop-color="#e2631c"/></linearGradient>
+<linearGradient id="roShine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="roMetal" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#3a4f86"/><stop offset="1" stop-color="#1b2a55"/></linearGradient>
+<filter id="roSh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#030814" flood-opacity=".6"/></filter>
+</defs>
+<rect width="400" height="300" fill="url(#roBg)"/><rect width="400" height="300" fill="url(#roGlow)"/><rect width="400" height="300" fill="url(#roGlow2)"/>
+<g stroke="#8fb0ff" stroke-opacity=".08"><path d="M0 60H400M0 120H400M0 180H400M0 240H400M60 0V300M120 0V300M180 0V300M240 0V300M300 0V300M360 0V300"/></g>
+<g transform="translate(108 168)">
+<circle r="74" fill="none" stroke="#ff8a3d" stroke-opacity=".18" stroke-width="2"/><circle r="58" fill="none" stroke="#ff8a3d" stroke-opacity=".32" stroke-width="2"/>
+<g filter="url(#roSh)"><path d="M-8 -46h16l3 11 9 4 10-6 11 11-6 10 4 9 11 3v16l-11 3-4 9 6 10-11 11-10-6-9 4-3 11h-16l-3-11-9-4-10 6-11-11 6-10-4-9-11-3v-16l11-3 4-9-6-10 11-11 10 6 9-4z" fill="url(#roMetal)" stroke="#6f86c4" stroke-width="1.5"/>
+<circle r="17" fill="#0b1430" stroke="#ff8a3d" stroke-width="4"/><circle r="5" fill="#ff8a3d"/></g>
+</g>
+<g transform="translate(140 108)" filter="url(#roSh)"><circle r="15" fill="#ff5d3d"/><text y="6" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="18" font-weight="800" fill="#fff">!</text></g>
+<g transform="translate(26 26)" filter="url(#roSh)"><rect width="62" height="62" rx="17" fill="url(#roIcon)"/><rect x="3" y="3" width="56" height="27" rx="14" fill="url(#roShine)"/>
+<text x="31" y="41" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="24" font-weight="800" fill="#fff">R</text></g>
+<g transform="translate(26 250)" filter="url(#roSh)"><rect width="122" height="24" rx="12" fill="#ffffff" fill-opacity=".95"/><circle cx="13" cy="12" r="5" fill="#ff5d3d"/>
+<text x="23" y="16" font-family="Poppins, Inter, sans-serif" font-size="8.5" font-weight="700" fill="#16244f">CNC-12 · coolant low</text></g>
+<g transform="translate(250 26)" filter="url(#roSh)">
+<rect width="124" height="244" rx="20" fill="#050a1a"/><rect x="5" y="5" width="114" height="234" rx="16" fill="#f6f4ef"/><rect x="46" y="10" width="32" height="5" rx="2.5" fill="#050a1a"/>
+<text x="14" y="34" font-family="Poppins, Inter, sans-serif" font-size="8" font-weight="700" fill="#e2631c">Troubleshoot · CNC-12</text>
+<rect x="11" y="42" width="102" height="54" rx="9" fill="#fff"/>
+<text x="19" y="56" font-family="Poppins, Inter, sans-serif" font-size="7" font-weight="700" fill="#16244f">Last fix on this machine</text>
+<rect x="19" y="62" width="84" height="5" rx="2.5" fill="#c8cfdf"/><rect x="19" y="72" width="70" height="5" rx="2.5" fill="#c8cfdf"/>
+<rect x="19" y="82" width="62" height="9" rx="4.5" fill="#fff1e6"/><text x="50" y="88.5" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="5.6" font-weight="700" fill="#e2631c">SOP-MNT-108 · p.4</text>
+<rect x="11" y="102" width="102" height="86" rx="9" fill="#fff"/>
+<text x="19" y="116" font-family="Poppins, Inter, sans-serif" font-size="7" font-weight="700" fill="#16244f">Checks</text>
+<circle cx="24" cy="130" r="5" fill="#2fbf71"/><path d="M21.5 130 l1.8 1.8 l3.2 -3.4" stroke="#fff" stroke-width="1.4" fill="none"/><rect x="34" y="127" width="64" height="5" rx="2.5" fill="#16244f" fill-opacity=".8"/>
+<circle cx="24" cy="148" r="5" fill="#2fbf71"/><path d="M21.5 148 l1.8 1.8 l3.2 -3.4" stroke="#fff" stroke-width="1.4" fill="none"/><rect x="34" y="145" width="54" height="5" rx="2.5" fill="#16244f" fill-opacity=".8"/>
+<circle cx="24" cy="166" r="5" fill="#ff5d3d"/><path d="M22 164 l4 4 M26 164 l-4 4" stroke="#fff" stroke-width="1.4"/><rect x="34" y="163" width="60" height="5" rx="2.5" fill="#16244f" fill-opacity=".8"/>
+<rect x="11" y="196" width="102" height="18" rx="9" fill="#e2631c"/><text x="62" y="208" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="7" font-weight="700" fill="#fff">Send to shift engineer</text>
+</g>
+</svg>
           <div class="pbody">
-            <div class="pname"><i style="background:#0f8b8d">R</i>ResolveOps</div>
+            <div class="pname"><i style="background:#e2631c">R</i>ResolveOps</div>
             <div class="ptag">B2B · Industrial maintenance · RAG</div>
             <p>An AI troubleshooting copilot that gives a technician at a stopped machine cited, machine-specific fix evidence from manuals, SOPs and past work orders.</p>
             <div class="overview" id="ov2" hidden>
@@ -451,30 +492,54 @@ a.btn{white-space:nowrap}
             </div>
             <div class="pbtns">
               <a class="btn" href="#/resolveops">Quick overview</a>
-              <a class="btn c-teal" href="#/resolveops/case-study">Detailed case study</a>
+              <a class="btn c-roo" href="#/resolveops/case-study">Detailed case study</a>
+              <a class="btn" href="https://resolveops.ai.studio/" target="_blank" rel="noopener">Live app ↗</a>
             </div>
           </div>
         </article>
 
         <article class="pcard">
-          <svg class="cover" viewBox="0 0 400 300" role="img" aria-label="A storybook under a moon">
-            <defs><linearGradient id="gkd" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#1d1840"></stop><stop offset="1" stop-color="#d8668a"></stop></linearGradient></defs>
-            <rect width="400" height="300" fill="url(#gkd)"></rect>
-            <circle cx="318" cy="70" r="30" fill="#ffe7a8"></circle><circle cx="332" cy="60" r="27" fill="#2a2152"></circle>
-            <circle cx="70" cy="60" r="2.5" fill="#fff"></circle><circle cx="130" cy="38" r="2" fill="#fff"></circle><circle cx="250" cy="44" r="2" fill="#fff"></circle><circle cx="200" cy="80" r="1.6" fill="#fff"></circle>
-            <path d="M200 236 C170 214 120 214 86 222 V138 C120 130 170 130 200 152 Z" fill="#fff8ee"></path>
-            <path d="M200 236 C230 214 280 214 314 222 V138 C280 130 230 130 200 152 Z" fill="#ffffff"></path>
-            <path d="M200 152 V236" stroke="#d8668a" stroke-width="3"></path>
-            <rect x="106" y="160" width="70" height="6" rx="3" fill="#e8cbd6"></rect><rect x="106" y="174" width="58" height="6" rx="3" fill="#e8cbd6"></rect><rect x="106" y="188" width="66" height="6" rx="3" fill="#e8cbd6"></rect>
-            <circle cx="257" cy="182" r="22" fill="#ffd27a"></circle><path d="M245 186 q12 10 24 0" stroke="#7a4a12" stroke-width="3" fill="none"></path><circle cx="250" cy="176" r="2.6" fill="#7a4a12"></circle><circle cx="264" cy="176" r="2.6" fill="#7a4a12"></circle>
-          </svg>
+          <svg class="cover" viewBox="0 0 400 300" role="img" aria-label="KIDOOS: a moon over an open storybook and a shelf of three stories the parent chose">
+<defs>
+<linearGradient id="kdBg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141a33"/><stop offset=".6" stop-color="#2a2f5c"/><stop offset="1" stop-color="#5a4a7a"/></linearGradient>
+<radialGradient id="kdGlow" cx=".5" cy=".62" r=".45"><stop offset="0" stop-color="#ffb48a" stop-opacity=".6"/><stop offset="1" stop-color="#ffb48a" stop-opacity="0"/></radialGradient>
+<radialGradient id="kdMoon" cx=".4" cy=".4" r=".7"><stop offset="0" stop-color="#fff6dc"/><stop offset="1" stop-color="#f3d58e"/></radialGradient>
+<linearGradient id="kdPage" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd1b5"/><stop offset="1" stop-color="#f19a72"/></linearGradient>
+<linearGradient id="kdShine" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<filter id="kdSh" x="-30%" y="-30%" width="160%" height="160%"><feDropShadow dx="0" dy="8" stdDeviation="9" flood-color="#0a0d20" flood-opacity=".55"/></filter>
+<mask id="kdM"><rect width="400" height="300" fill="#fff"/><circle cx="218" cy="74" r="30" fill="#000"/></mask><mask id="kdM2"><rect width="62" height="62" fill="#fff"/><circle cx="36" cy="21" r="9" fill="#000"/></mask><filter id="kdBlur"><feGaussianBlur stdDeviation="6"/></filter>
+</defs>
+<rect width="400" height="300" fill="url(#kdBg)"/><rect width="400" height="300" fill="url(#kdGlow)"/>
+<g fill="#fff"><circle cx="40" cy="40" r="1.8"/><circle cx="92" cy="74" r="1.2"/><circle cx="150" cy="30" r="1.6"/><circle cx="248" cy="26" r="1.2"/><circle cx="300" cy="60" r="1.8"/><circle cx="362" cy="34" r="1.3"/><circle cx="372" cy="120" r="1.6"/><circle cx="26" cy="132" r="1.3"/>
+<path d="M120 112 l2 5 5 2 -5 2 -2 5 -2 -5 -5 -2 5 -2z"/><path d="M330 168 l1.6 4 4 1.6 -4 1.6 -1.6 4 -1.6 -4 -4 -1.6 4 -1.6z"/></g>
+<circle cx="196" cy="90" r="40" fill="#fff3d0" fill-opacity=".22" filter="url(#kdBlur)"/>
+<g filter="url(#kdSh)"><circle cx="200" cy="86" r="34" fill="url(#kdMoon)" mask="url(#kdM)"/></g>
+<g filter="url(#kdSh)">
+<path d="M200 218 C170 200 128 198 98 206 V146 C128 138 170 140 200 160 Z" fill="url(#kdPage)"/>
+<path d="M200 218 C230 200 272 198 302 206 V146 C272 138 230 140 200 160 Z" fill="url(#kdPage)"/>
+<path d="M200 212 C172 196 134 194 106 200 V150 C134 144 172 146 200 166 Z" fill="#fff8f0"/>
+<path d="M200 212 C228 196 266 194 294 200 V150 C266 144 228 146 200 166 Z" fill="#fff8f0"/>
+<path d="M200 166 V212" stroke="#f19a72" stroke-width="2"/>
+<rect x="118" y="164" width="60" height="5" rx="2.5" fill="#f2c9b4"/><rect x="118" y="175" width="50" height="5" rx="2.5" fill="#f2c9b4"/><rect x="118" y="186" width="56" height="5" rx="2.5" fill="#f2c9b4"/>
+<circle cx="248" cy="178" r="15" fill="#ffd27a"/><circle cx="243" cy="175" r="1.8" fill="#6b4210"/><circle cx="253" cy="175" r="1.8" fill="#6b4210"/><path d="M242 181 q6 5 12 0" stroke="#6b4210" stroke-width="2" fill="none" stroke-linecap="round"/>
+</g>
+<g transform="translate(24 236)" filter="url(#kdSh)"><rect width="352" height="46" rx="14" fill="#ffffff" fill-opacity=".12" stroke="#ffffff" stroke-opacity=".25"/>
+<text x="14" y="28" font-family="Poppins, Inter, sans-serif" font-size="10" font-weight="700" fill="#ffe2cf">Today's shelf</text>
+<rect x="104" y="8" width="64" height="30" rx="7" fill="#8fd3c1"/><text x="136" y="27" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="8.5" font-weight="700" fill="#14332b">Sharing</text>
+<rect x="176" y="8" width="64" height="30" rx="7" fill="#ffc48a"/><text x="208" y="27" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="8.5" font-weight="700" fill="#4a2a0c">Courage</text>
+<rect x="248" y="8" width="64" height="30" rx="7" fill="#c9b6ff"/><text x="280" y="27" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="8.5" font-weight="700" fill="#2a1d5a">Feelings</text>
+<circle cx="330" cy="23" r="9" fill="#ffffff" fill-opacity=".85"/><path d="M327 19 v8 l7 -4z" fill="#2a2f5c"/></g>
+<g transform="translate(24 24)" filter="url(#kdSh)"><rect width="62" height="62" rx="17" fill="#232a52"/><rect x="3" y="3" width="56" height="27" rx="14" fill="url(#kdShine)" fill-opacity=".5"/>
+<circle cx="31" cy="25" r="10" fill="#fff3d0" mask="url(#kdM2)"/><path d="M14 44 q9 -6 17 0 q8 -6 17 0 v4 q-9 -5 -17 1 q-8 -6 -17 -1z" fill="#f19a72"/></g>
+<g transform="translate(290 196)" filter="url(#kdSh)"><rect width="88" height="24" rx="12" fill="#ffe2cf"/><text x="44" y="16" text-anchor="middle" font-family="Poppins, Inter, sans-serif" font-size="8.5" font-weight="700" fill="#2a2f5c">No autoplay</text></g>
+</svg>
           <div class="pbody">
-            <div class="pname"><i style="background:#d8668a">K</i>KIDOOS</div>
+            <div class="pname"><i style="background:#2a2f5c">K</i>KIDOOS</div>
             <div class="ptag">B2C · Kids &amp; parents · Live web app</div>
             <p>A calm storybook app for children aged 1 to 6: the parent picks every story onto a shelf, the child sees only that shelf, no autoplay, and the session ends gently.</p>
             <div class="pbtns">
               <a class="btn" href="#/kidoos">Quick overview</a>
-              <a class="btn c-pink" href="#/kidoos/case-study">Detailed case study</a>
+              <a class="btn c-kdn" href="#/kidoos/case-study">Detailed case study</a>
               <a class="btn" href="https://kidoos.netlify.app" target="_blank" rel="noopener">Live app ↗</a>
             </div>
           </div>
@@ -965,6 +1030,7 @@ a.btn{white-space:nowrap}
   <header class="sp-top"><div class="wrap">
     <a class="home-link" href="#projects">← Home</a>
     <div class="sp-pills">
+      <a class="sp-pill" href="https://loadmatch-yozp.onrender.com/" target="_blank" rel="noopener">Live app ↗</a>
       <a class="sp-pill" href="#/loadmatch/case-study" data-jump="lm-5">Architecture</a>
       <a class="sp-pill fill" href="#/loadmatch/case-study">Detailed Case Study</a>
     </div>
@@ -1036,7 +1102,7 @@ a.btn{white-space:nowrap}
 <div class="view sp t-lm" id="v-lm-cs" hidden data-title="LoadMatch — Detailed Case Study | Aswini Bandaru">
   <header class="sp-top"><div class="wrap">
     <a class="home-link" href="#projects">← Home</a>
-    <div class="sp-pills"><a class="sp-pill fill" href="#/loadmatch">Quick Overview</a></div>
+    <div class="sp-pills"><a class="sp-pill fill" href="#/loadmatch">Quick Overview</a><a class="sp-pill" href="https://loadmatch-yozp.onrender.com/" target="_blank" rel="noopener">Live app ↗</a></div>
   </div></header>
   <div class="wrap dlay">
     <nav class="idx" aria-label="Case study sections"><span class="eb">Index</span><button type="button" data-goto="lm-top">Overview</button><button type="button" data-goto="lm-1">01 Problem</button><button type="button" data-goto="lm-2">02 Research</button><button type="button" data-goto="lm-3">03 Journey</button><button type="button" data-goto="lm-4">04 Solution</button><button type="button" data-goto="lm-5">05 Architecture</button><button type="button" data-goto="lm-6">06 Decisions</button><button type="button" data-goto="lm-7">07 Metrics</button><button type="button" data-goto="lm-8">08 Risks &amp; next</button></nav>
@@ -1122,7 +1188,7 @@ a.btn{white-space:nowrap}
 
       <section class="cta">
         <h2 class="serif">Explore the <em>Quick Overview</em> or return home.</h2>
-        <div class="sp-pills"><a class="sp-pill fill" href="#/loadmatch">Quick Overview</a><a class="sp-pill" href="#projects">Home</a></div>
+        <div class="sp-pills"><a class="sp-pill fill" href="#/loadmatch">Quick Overview</a><a class="sp-pill" href="https://loadmatch-yozp.onrender.com/" target="_blank" rel="noopener">Live app ↗</a><a class="sp-pill" href="#projects">Home</a></div>
       </section>
     </main>
   </div>
